@@ -1,3 +1,7 @@
-const msg: string = "Hola Mundo!";
+//funcion anonima autoinbocada
+(() => {
 
-console.log(msg);
+    const a:number = 10;
+    console.log(a);
+
+})()

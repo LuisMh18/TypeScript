@@ -1,3 +1,6 @@
 "use strict";
-const msg = "Hola Mundo!";
-console.log(msg);
+//funcion anonima autoinbocada
+(() => {
+    const a = 10;
+    console.log(a);
+})();
