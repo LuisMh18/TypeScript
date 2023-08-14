@@ -1,5 +1,5 @@
 "use strict";
 (() => {
-    let isActive = null;
-    console.log(isActive);
+    // let isActive: boolean = null;
+    // console.log(isActive);
 })();

@@ -1,8 +1,8 @@
 
 (()=>{
 
-    let isActive: boolean = null;
+    // let isActive: boolean = null;
 
-    console.log(isActive);
+    // console.log(isActive);
 
 })()
