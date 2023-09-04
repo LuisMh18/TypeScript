@@ -73,3 +73,14 @@
    - Ayuda a centralizar procesos.
    - Aplicar el principio DRY, usualmente lleva a refactorizar.}
    - ( `principio DRY.png` )
+
+# comentarios 
+ - Cuando necesites usar comentarios a tu código es proque no es lo suficientemente auto explicativo.
+ - ( `Comentarios.png` ) 
+ - "No comentes el código mal escrito, reescríbelo".
+ - Lo que se debería de comentar dando un ejemplo, es porque resolviste algo de cierta manera, sabiendo de que existen otras posibles soluciones, eso si debe de ser explicado. 
+ - ( `Comentarios 2.png` ) 
+
+# Uniformidad en el proyecto
+- ( `Uniformidad 1.png` ) 
+- ( `Uniformidad 2.png` ) 
