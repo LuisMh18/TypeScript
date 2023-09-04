@@ -74,6 +74,8 @@
    - Aplicar el principio DRY, usualmente lleva a refactorizar.}
    - ( `principio DRY.png` )
 
+# --------------------------------------------------------------------------------------------------------------------------------------------
+
 # comentarios 
  - Cuando necesites usar comentarios a tu código es proque no es lo suficientemente auto explicativo.
  - ( `Comentarios.png` ) 
@@ -84,3 +86,35 @@
 # Uniformidad en el proyecto
 - ( `Uniformidad 1.png` ) 
 - ( `Uniformidad 2.png` ) 
+
+# --------------------------------------------------------------------------------------------------------------------------------------------
+
+# Acrónimo - STUPID - es una concatenación de un montón de antipatrones
+ - En pocas palabras es todo lo que no deberíamos de hacer
+  # CodeSmells - STUPID
+   - ( `Acrónimo STUPID.png` ) 
+   # Patrón Singleton
+   - ( `Patron Singleton.png` ) 
+   # Acoplamiento y cohesión.
+    - Lo ideal es tener bajo acoplamiento y buena cohesión.
+    - Desventajas -> ( `Alto acoplamiento -  Desventajas.png` ) 
+    - Solciones - Lo que nosotros queremos es diseñar componentes, clases o modulos que sean auto contenidos, auto suficientes e independientes. Con un pbjetivo y un propósito bien definido.
+  # Cohesión
+   - Lo ideal es tener bajo acoplamiento y buena cohesión.
+     - La cohesión se refiere a lo que hace la clase ( o módulo ) pude hacer.
+     - La baja cohesión  significaría que la clase realiza una gran variedad de acciones: es amplia, no se enfoca en lo que debe hacer.
+     - Alta cohesión significa que la clase se enfoca en lo que debería estar haciendo, es decir, solo métodos  relacionados con la intención de la clase.
+  # Acoplamiento
+   - Se refiere al cuál relacionadas o dependientes son 2 clases o módulos entre sí.
+   ( `Acoplamiento.png` ) 
+  # Código no probale - código dificilmente testeable
+   - Código con alto acoplamiento
+   - Código con muchas dependencias no inyectadas.
+   - Dependencias con el contexto global (Tipo Singleton)
+   Nota: Debemos de tener en mente las pruebas desde la creación del código.
+  # Code Smells adicionales
+  ( `Code Smells adicionales.png` ) 
+    # Duplicidad de código
+     - No aplicar el principio DRY
+     - La duplicidad real es la que tenemos que evitar a toda costa, y la duplicidad accidental cuando hay un cambio en una función o modulo pero solo hay que modificar un lugar.
+     ( `Duplicidad de código.png` ) 
